@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Student Management</h1>
+    <form id="studentForm">
+        <input type="hidden" id="studentId">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Save</button>
+    </form>
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
